@@ -1,0 +1,17 @@
+﻿@model estudo.Models.Despesa
+
+<h1> Despesa Confirmada </h1>
+
+<div class="container" > 
+    
+    <p>Nome: @Model.NomeDespesa</p>
+    <p>Quantidade: @Model.Quantidade</p>
+    <p>Valor: @Model.Valor</p>
+    <p>Categoria: @Model.Categoria</p>
+    <p>Pago: @Model.Pago </p>    
+       
+</div>
+
+<div>
+    <a asp-action="NovaDespesa">Voltar para uma nova despesa</a>
+</div>
